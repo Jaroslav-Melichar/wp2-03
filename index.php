@@ -13,7 +13,7 @@ $computer = array(
 'RAM' =>         "2X HyperX Predator 8GB DDR4 3200",
 'SDD' =>         "Samsung SSD 860 Pro, 2,5 - 1TB",
 'CASE' =>        "Thermaltake View 21 TG RGB PLUS",
-'keyboard' =>    "Logitech G213 Prodigy, US",
+'KEYBOARD' =>    "Logitech G213 Prodigy, US",
 'GPU' =>         "MSI GeForce GTX 1660 GAMING 6G, 6GB GDDR5",
 'MOUSE' =>       "A4Tech Bloody V7 Ultra Core 3",
 'HEADPHONES' =>  "HyperX Cloud II Wireless",
@@ -24,15 +24,17 @@ $computer = array(
 ?>
 
 <h1>Můj Počítač</h1>
-Procesor : <?= $computer [CPU] ?>
-Ram paměť : 
-SSD disk : 
-Case na PC :
-Klávesnice : 
-Grafická karta :
-Myš : 
-Sluchátka : 
-Monitor : 
-Základní deska :
-Větrák : 
+Procesor :      <?= $computer ['CPU'] ?>
+Ram paměť :     <?= $computer ['RAM'] ?>
+SSD disk :      <?= $computer ['SDD'] ?>
+Case na PC :    <?= $computer ['CASE'] ?>
+Klávesnice :    <?= $computer ['KEYBOARD'] ?>
+Grafická karta :<?= $computer ['GPU'] ?>
+Myš :           <?= $computer ['MOUSE'] ?>
+Sluchátka :     <?= $computer ['HEADPHONES'] ?>
+Monitor :       <?= $computer ['DISPLAZ'] ?>
+Základní deska :<?= $computer ['MAINBOARD'] ?>
+Větrák :        <?= $computer ['FAN'] ?>
 
+</body>
+</html>
