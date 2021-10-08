@@ -1,5 +1,13 @@
-<?php
-$computer = array(
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <?php
+   $computer = array(
 'CPU' =>         "AMD Ryzen 7 3700x",
 'RAM' =>         "2X HyperX Predator 8GB DDR4 3200",
 'SDD' =>         "Samsung SSD 860 Pro, 2,5 - 1TB",
@@ -11,20 +19,9 @@ $computer = array(
 'DISPLAY' =>     "Dell S2721HGF - LED monitor 27",
 'MAINBOARD' =>    "GIGABYTE B450M DS3H - AMD B450",
 'FAN' =>          "Arctic Freezer 7 X",
-);
-?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prvni pole</title>
-</head>
-<body>
-
-<h1>Můj Počítač</h1>
-
+        );
+    ?>
+<h1>Můj počítač</h1>
 Procesor :      <?= $computer ['CPU'] ?>            <br>
 Ram paměť :     <?= $computer ['RAM'] ?>            <br>
 SSD disk :      <?= $computer ['SDD'] ?>            <br>
@@ -33,11 +30,8 @@ Klávesnice :    <?= $computer ['KEYBOARD'] ?>       <br>
 Grafická karta :<?= $computer ['GPU'] ?>            <br>
 Myš :           <?= $computer ['MOUSE'] ?>          <br>
 Sluchátka :     <?= $computer ['HEADPHONES'] ?>     <br>
-Monitor :       <?= $computer ['DISPLAZ'] ?>        <br>
+Monitor :       <?= $computer ['DISPLAY'] ?>        <br>
 Základní deska :<?= $computer ['MAINBOARD'] ?>      <br>
 Větrák :        <?= $computer ['FAN'] ?>            <br>
-
-
-
 </body>
 </html>
